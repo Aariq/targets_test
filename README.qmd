@@ -2,12 +2,12 @@
 title: "Untitled"
 format: gfm
 ---
-
+ 
 ```{r}
 #| output: asis
 #| echo: false
 cat(
-  "```",
+  "```{=gfm}",
   "::: mermaid",
   targets::tar_mermaid(),
   ":::",
